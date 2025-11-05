@@ -1,0 +1,9 @@
+[Unit]
+Description=Enable Rosetta 2 Translation Layer
+
+[Service]
+Type=oneshot
+ExecStart=/bin/sh /opt/rosetta/rosetta_start.sh
+
+[Install]
+WantedBy=multi-user.target
