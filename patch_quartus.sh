@@ -12,3 +12,8 @@ sudo sed -i '/# We don'\''t support processors without SSE extensions (e.g. Pent
 wget https://github.com/federunco/federunco/raw/refs/heads/main/libccl_sqlite3.so
 sudo cp /opt/quartus/24.1std/quartus/linux64/libccl_sqlite3.so /opt/quartus/24.1std/quartus/linux64/libccl_sqlite3.so.bak
 sudo cp libccl_sqlite3.so /opt/quartus/24.1std/quartus/linux64/libccl_sqlite3.so
+
+# export QSYS_ROOTDIR="/opt/quartus/24.1std/quartus/sopc_builder/bin"
+# export QUARTUS_ROOTDIR="/opt/quartus/24.1std/quartus"
+# export LD_LIBRARY_PATH="/opt/quartus/24.1std/quartus/linux64:/lib/x86_64-linux-gnu"
+# export PATH=$PATH:"/opt/quartus/24.1std/quartus/bin:/home/parallels/intelFPGA/20.1/modelsim_ase/bin"

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Version=0.9.4
+Name=Quartus Prime Lite
+Comment=Quartus (Quartus Prime 24.1std)
+Icon=/opt/quartus/24.1std/quartus/adm/quartusii.png
+Exec=/opt/quartus/24.1std/quartus/bin/quartus --64bit
+Terminal=false
+Path=/opt/quartus/24.1std
